@@ -34,6 +34,8 @@ It should render a view that allows artists to add to an existing drawing:
 
   They will only see edges of the existing drawing
 
+  Body parts can be reused infinitely many times!
+
   This view will render correctly & allow drawing on all devices
 
   This view will make it clear where the artist needs to draw so that it meets up with existing drawing
@@ -51,6 +53,8 @@ It should render a view of "corpses" or complete bodies:
   The location of all artists involved will show up
 
   The drawings will have dates of creation
+
+  Every body part that has been reused will show up in each drawing it belongs to
 
   Option to name corpse?
 
