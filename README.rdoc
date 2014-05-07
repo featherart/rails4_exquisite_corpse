@@ -1,28 +1,57 @@
-== README
+Exquisite Corpse - a game of collective creativity!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic specs
+===========
 
-Things you may want to cover:
+It should render an initial view of a canvas: 
 
-* Ruby version
+  Artists can choose to log in via Facebook or Twitter - so they will have autosigning ability
 
-* System dependencies
+  Artists can share their work via Facebook or Twitter
 
-* Configuration
+  Drawing should work on mobile & desktop devices by either mouse dragging, waycom tablet or finger dragging
 
-* Database creation
+  This view will prompt to draw either a head, torso or feet
 
-* Database initialization
+  Drawing area will be grayed at the edges where it will meet up with other body parts - bottom for head, both edges for torso, top for feet
 
-* How to run the test suite
+  The UI will make it clear that the artist should draw to the edges of the gray areas
 
-* Services (job queues, cache servers, search engines, etc.)
+  Artist can reset the drawing area, erase parts of the drawing and draw in different colors
 
-* Deployment instructions
+  Completed drawing can be saved to a png file
 
-* ...
+  Complete drawing is rendered to the artist
 
+It should render a view of all completed drawings:
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  Drawings are categorized by heads, torsos, feet 
+
+  Drawings will display artist's name (if they want) & creation date
+
+  Link to the drawings that include this body part?
+
+It should render a view that allows artists to add to an existing drawing:
+
+  They will only see edges of the existing drawing
+
+  This view will render correctly & allow drawing on all devices
+
+  This view will make it clear where the artist needs to draw so that it meets up with existing drawing
+
+  Artist can erase, reset and draw in color
+
+  Completed drawing can be saved to a .png file
+
+  Completed drawing is rendered to the artist with it's other body part or parts - *always show complete body or just pair?
+
+It should render a view of "corpses" or complete bodies:
+
+  Artists involved in each corpse can leave a name
+
+  The location of all artists involved will show up
+
+  The drawings will have dates of creation
+
+  Option to name corpse?
+  
