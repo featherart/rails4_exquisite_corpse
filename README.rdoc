@@ -2,7 +2,6 @@ Exquisite Corpse - a game of collective creativity!
 
 Basic specs
 ===========
-
 It should render an initial view of a canvas: 
 
   Artists can choose to log in via Facebook or Twitter - so they will have autosigning ability
@@ -22,7 +21,7 @@ It should render an initial view of a canvas:
   Completed drawing can be saved to a png file
 
   Complete drawing is rendered to the artist
-
+===========
 It should render a view of all completed drawings:
 
   Drawings are categorized by heads, torsos, feet 
@@ -30,7 +29,7 @@ It should render a view of all completed drawings:
   Drawings will display artist's name (if they want) & creation date
 
   Link to the drawings that include this body part?
-
+===========
 It should render a view that allows artists to add to an existing drawing:
 
   They will only see edges of the existing drawing
@@ -44,7 +43,7 @@ It should render a view that allows artists to add to an existing drawing:
   Completed drawing can be saved to a .png file
 
   Completed drawing is rendered to the artist with it's other body part or parts - *always show complete body or just pair?
-
+===========
 It should render a view of "corpses" or complete bodies:
 
   Artists involved in each corpse can leave a name
@@ -54,4 +53,4 @@ It should render a view of "corpses" or complete bodies:
   The drawings will have dates of creation
 
   Option to name corpse?
-  
+
