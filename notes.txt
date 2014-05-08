@@ -1,0 +1,26 @@
+Head:
+id
+author name & location
+image
+timestamp
+
+Torso:
+id
+author name & location
+image
+timestamp
+
+Feet:
+id
+author name & location
+image
+timestamp
+
+Corpse:
+id
+head_id --> head image, author
+torso_id --> torso image
+feet_id --> torso image
+timestamp
+corpse_name --> given after completion by last person?
+

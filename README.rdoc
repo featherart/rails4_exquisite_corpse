@@ -56,5 +56,8 @@ It should render a view of "corpses" or complete bodies:
 
   Every body part that has been reused will show up in each drawing it belongs to
 
-  Option to name corpse?
+  Option to name corpse? Email completed corpse .png to self or share on FB/twitter? 
+
+
+
 
