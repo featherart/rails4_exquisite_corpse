@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe "corpse/index.html.erb" do
-  it "displays Exquisite Corpse" do
+describe "corpse/new.html.erb" do
+  it "displays a form" do
     render
     rendered.should include("Exquisite Corpse")
   end
